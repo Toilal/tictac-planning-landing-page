@@ -9,8 +9,8 @@
 	<meta http-equiv="content-type" content="text/html; charset=utf-8"/>
 	<meta name="description" content=""/>
 	<meta name="keywords" content=""/>
-	<meta name="robots" CONTENT="noindex, nofollow"><!-- A retirer !-->
-	<!--[if lte IE 8]>
+	<meta name="robots" CONTENT="noindex, nofollow">
+	<!-- A retirer !-->	<!--[if lte IE 8]>
 	<script src="css/ie/html5shiv.js"></script><![endif]-->
 	<script src="js/jquery.min.js"></script>
 	<script src="js/jquery.dropotron.min.js"></script>
@@ -54,19 +54,11 @@
 								<strong>essayez-le</strong>, c'est <strong>gratuit</strong> !</p>-->
 						</div>
 					</div>
-					<div class="row">
-						<div class="8u">
-							<ul>
-								<li>
-									<a href="#footer-wrapper" class="button big icon fa-arrow-circle-right">Ça m'intéresse !</a>
-								<li>
-									<a href="#features-wrapper" class="button alt big icon fa-question-circle">Plus d'informations ...</a>
-							</ul>
-						</div>
-						<div class="4u">
-
-						</div>
-					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="9u" id="#cta-container">
+					<a href="#footer-wrapper" class="button big icon fa-arrow-circle-right">Inscrivez-vous maintenant !</a>
 				</div>
 			</div>
 		</div>
@@ -159,9 +151,11 @@
 								</div>
 							</div>
 							<div class="row no-collapse half">
-								<div class="6u"><a href="#" class="image fit"><img src="images/industry.jpg" alt=""/></a>
+								<div class="6u">
+									<a href="#" class="image fit"><img src="images/industry.jpg" alt=""/></a>
 								</div>
-								<div class="6u"><a href="#" class="image fit"><img src="images/warehouse.jpg" alt=""/></a>
+								<div class="6u">
+									<a href="#" class="image fit"><img src="images/warehouse.jpg" alt=""/></a>
 								</div>
 							</div>
 						</div>
@@ -175,7 +169,7 @@
 				<!-- Content -->
 				<div id="content">
 					<section class="last">
-						<h2>Mais, comment ça marche exactement ?</h2>
+						<h2>Comment ça marche exactement ?</h2>
 
 						<p><strong>Pragmasphere Planning</strong> est une
 							<strong>application SaaS</strong>. Cela signifie que vous n'avez
@@ -227,6 +221,7 @@
 								<input type="email" value="" name="EMAIL" placeholder="Votre adresse email" class="required email" id="mce-EMAIL">
 							</div>
 							<p>Nous ne communiquerons votre adresse email à personne, promis !</p>
+
 							<div id="mce-responses" class="clear">
 								<div class="response" id="mce-error-response" style="display:none"></div>
 								<div class="response" id="mce-success-response" style="display:none"></div>
@@ -244,8 +239,15 @@
 					</div>
 					<script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script>
 					<script type='text/javascript'>
-						(function($) {
-							window.fnames = new Array(); window.ftypes = new Array();fnames[0]='EMAIL';ftypes[0]='email';fnames[1]='FNAME';ftypes[1]='text';fnames[2]='LNAME';ftypes[2]='text';
+						(function ($) {
+							window.fnames = new Array();
+							window.ftypes = new Array();
+							fnames[0] = 'EMAIL';
+							ftypes[0] = 'email';
+							fnames[1] = 'FNAME';
+							ftypes[1] = 'text';
+							fnames[2] = 'LNAME';
+							ftypes[2] = 'text';
 							/*
 							 * Translated default messages for the $ validation plugin.
 							 * Locale: FR

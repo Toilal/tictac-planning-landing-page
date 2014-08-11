@@ -583,10 +583,11 @@ ol.default li {
 /*********************************************************************************/
 /* Custom                                                                        */
 /*********************************************************************************/
-.box#banner {
-	background-image: url("../images/watch-people.jpg");
-	background-repeat: no-repeat;
-	background-position: right bottom;
+.img-boring {
+	border-radius: 20px;
+	border: 2px solid transparent;
+	box-shadow: 0px 3px 6px 0px rgba(0, 0, 0, 0.6);
+	max-width: 280px;
 }
 
 #mc_embed_signup {

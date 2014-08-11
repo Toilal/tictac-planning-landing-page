@@ -37,8 +37,8 @@ input[type="button"].big,
 input[type="submit"].big,
 input[type="reset"].big,
 .button.big {
-	font-size: 2.25em;
-	padding: 0.8em 0.9em;
+	font-size: 3em;
+	padding: 1em 1em;
 }
 
 .button.icon {
@@ -271,22 +271,23 @@ input[type="reset"].big,
 
 #banner {
 	padding: 1em, 2em, 4.5em, 2em;
-	margin: 1em, 0, 1em, 0;
+	margin: 1em, 1em, 1em, 1em;
 }
 
 #banner h1 {
 	font-size: 4.5em;
+	line-height: 1em;
 	margin: 0.1em 0 0.7em 0;
 }
 
 #banner h2 {
 	font-size: 2.5em;
-	margin: 0.1em 0 1em 0;
+	margin: 1em 0 1.5em 0;
 }
 
 #banner p {
 	font-size: 1.5em;
-	line-height: 1.20em;
+	line-height: 1.5em;
 	margin: 0 0 1em 0;
 }
 
@@ -305,7 +306,7 @@ input[type="reset"].big,
 	position: absolute;
 	right: 0.15em;
 	top: 50%;
-	margin-top: -0.5em;
+	margin-top: -0.3em;
 }
 
 #banner .button.alt {
@@ -338,6 +339,8 @@ input[type="reset"].big,
 	height: 2em;
 }
 
-.img-boring {
-	width: 280px;
+.box#banner {
+	background-image: url("../images/watch-people.jpg");
+	background-repeat: no-repeat;
+	background-position: right bottom;
 }
