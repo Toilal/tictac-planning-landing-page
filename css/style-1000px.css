@@ -124,6 +124,10 @@ input[type="reset"].big,
 	background-size: 250px 250px;
 }
 
+#sidebar .button {
+	font-size: 1.1em;
+}
+
 .img-boring {
 	width: 200px;
 }
